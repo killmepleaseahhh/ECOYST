@@ -319,7 +319,7 @@ body{
   transform:scaleX(1);
 }
 .prod-img{
-  height:140px;
+  height:20rem;
   background:linear-gradient(135deg, #f8faf9 0%, #e8f5ea 100%);
   border-radius:12px;
   margin-bottom:16px;
@@ -682,4 +682,5 @@ html{scroll-behavior:smooth}
   background:rgba(47,138,78,.2);
   color:#111;
 }
+
 
