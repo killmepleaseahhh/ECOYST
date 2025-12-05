@@ -13,7 +13,7 @@ yearSpan.textContent = new Date().getFullYear();
 
 // sample products & pricing (based on provided pricing ranges)
 const products = [
-  { id: "p1", name: "Ecoyst Started", weight: "250g", price: 129, desc: "Perfect for small indoor plants and trial buyers." },
+  { id: "p1", name: "Ecoyst Starter", weight: "250g", price: 129, desc: "Perfect for small indoor plants and trial buyers." },
   { id: "p2", name: "Bolcony Booster", weight: "2x250g ", price: 249, desc: "Ideal for regular plant care and medium gardens." },
   { id: "p3", name: "Circular Gardener", weight: "4x250g (1kg)", price: 450, desc: "Convenient pouches for easy use and storage." },
   { id: "p4", name: "Waste Warrior Bulk", weight: "5kg", price: 2099, desc: "Bulk pack for community gardens and heavy users." }
@@ -147,4 +147,5 @@ document.addEventListener('click', (e)=>{
 
 // initialize
 renderProducts();
+
 
