@@ -23,7 +23,7 @@ const products = [
     weight: "500g + 250g + Gardening Tool/Seeds",
     price: 599,
     desc: "Complete starter kit for improving poor soil quality. Includes Balcony Booster (500g), Bio-Mix (250g), and a gardening tool or heirloom seeds.",
-    image: "bulk.jpeg" 
+    image: "soil.jpeg" 
   },
 
   // ⭐ NEW PRODUCT 2
@@ -33,7 +33,7 @@ const products = [
     weight: "250g + 250ml Liquid Tonic",
     price: 399,
     desc: "Designed for kitchen garden enthusiasts. Starter Pack + Liquid Ecoyst Tonic to boost tomatoes, chillies, basil and other high-yield crops.",
-    image: "bulk.jpeg"
+    image: "herb.jpeg"
   }
 ];
 
@@ -169,6 +169,7 @@ document.addEventListener('click', (e)=>{
 
 // initialize
 renderProducts();
+
 
 
 
