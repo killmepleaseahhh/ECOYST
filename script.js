@@ -14,9 +14,27 @@ yearSpan.textContent = new Date().getFullYear();
 // sample products & pricing (based on provided pricing ranges)
 const products = [
   { id: "p1", name: "Ecoyst Starter", weight: "250g", price: 129, desc: "Perfect for small indoor plants and trial buyers.", image: "starter.jpeg" },
-  { id: "p2", name: "Bolcony Booster", weight: "2x250g ", price: 249, desc: "Ideal for regular plant care and medium gardens.",  image: "booster.jpeg"  },
+  { id: "p2", name: "Balcony Booster", weight: "2x250g ", price: 249, desc: "Ideal for regular plant care and medium gardens.",  image: "booster.jpeg"  },
   { id: "p3", name: "Circular Gardener", weight: "4x250g (1kg)", price: 450, desc: "Convenient pouches for easy use and storage.", image: "gardener.jpeg"  },
-  { id: "p4", name: "Waste Warrior Bulk", weight: "5kg", price: 2099, desc: "Bulk pack for community gardens and heavy users.", image: "bulk.jpeg"  }
+  { id: "p4", name: "Waste Warrior Bulk", weight: "5kg", price: 2099, desc: "Bulk pack for community gardens and heavy users.", image: "bulk.jpeg"  },
+    {
+    id: "p5",
+    name: "Soil Health Kit",
+    weight: "500g + 250g + Gardening Tool/Seeds",
+    price: 599,
+    desc: "Complete starter kit for improving poor soil quality. Includes Balcony Booster (500g), Bio-Mix (250g), and a gardening tool or heirloom seeds.",
+    image: "bulk.jpeg" 
+  },
+
+  // ⭐ NEW PRODUCT 2
+  {
+    id: "p6",
+    name: "Herb & Veggie Feed",
+    weight: "250g + 250ml Liquid Tonic",
+    price: 399,
+    desc: "Designed for kitchen garden enthusiasts. Starter Pack + Liquid Ecoyst Tonic to boost tomatoes, chillies, basil and other high-yield crops.",
+    image: "bulk.jpeg"
+  }
 ];
 
 // cart helpers
@@ -151,6 +169,7 @@ document.addEventListener('click', (e)=>{
 
 // initialize
 renderProducts();
+
 
 
 
